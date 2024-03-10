@@ -13,4 +13,4 @@ Hello, blog
 _underline_
 
 **bold**
-<iframe src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
+<iframe style="width: 640px; height: 360px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
