@@ -17,4 +17,4 @@ Hello, blog
 ### Third idea: Add a way to create more square for every square on the horizon line
 # Res study
 
-<iframe width= "100%" height="100%" src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
+<iframe src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
