@@ -2,6 +2,8 @@
 title: Week 1
 published_at: 2024-3
 snippet: Week 1
+disable_html_sanitization: true
+
 ---
 
 Hello, blog
