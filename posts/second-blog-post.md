@@ -2,6 +2,9 @@
 title: Week 2
 published_at: 2024-3
 snippet: Week 2
+disable_html_sanitization: true
+
+
 ---
 
 Hello, blog
