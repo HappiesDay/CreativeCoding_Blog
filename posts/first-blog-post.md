@@ -34,7 +34,7 @@ Therefore in my code, I change the loop part to become:
     }
   }
 ```
-<iframe width="100%" src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
+<iframe src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
 
 ## Second idea: Change the size of square
 I find that by automating the size to match the columns and rows is quite unnecessary so I change the size to depend only on the total squares
