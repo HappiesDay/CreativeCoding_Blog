@@ -55,5 +55,12 @@ I find that by automating the size to match the columns and rows is quite unnece
 <iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
 
 
-# Square Grid homework
-## Initial idea: Create instance for total columns and rows
+# Rafaël Rozendaal sketch (Almost calm work)
+## How did Rafaël achieve these effects? 
+This is an interactive web, and the circle and color respond to the mouse, therefore he might have use 
+-mouse X and mouse Y: for when the color in circle rotate clockwise when mouse move
+-rotate: since the color in the circle rotate only clockwise and the background only rotate counter clockwise
+-lerp: since the color is gradient
+
+## Test for the use of mouse X and mouse Y in color changing
+
