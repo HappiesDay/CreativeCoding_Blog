@@ -39,11 +39,18 @@ Therefore in my code, I change the loop part to become:
 ## Second idea: Change the size of square
 I find that by automating the size to match the columns and rows is quite unnecessary so I change the size to depend only on the total squares
 ```
+  const total_squares = 10; // Number of squares in both dimensions
   const size = (width / total_squares)*0.8; // Size of each square
 
+  for (let i = 0; i < total_squares; i++) { // Create a horizontal line of square
+    for (let j = 0; j < total_squares; j++) { //for every square on the horizon line, create a verticle line of square
+      const x = width * (i + 0.5) / total_squares;  
+      const y = height * (j + 0.5) / total_squares;
+      square(x, y, t * ((i + j) + 1) % size)/2;
 
+```
 
-### Third idea: Add a way to create more square for every square on the horizon line
+### Final sketch: Add a way to create more square for every square on the horizon line
 
 <iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
 
