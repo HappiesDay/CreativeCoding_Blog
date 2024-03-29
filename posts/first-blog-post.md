@@ -50,8 +50,10 @@ I find that by automating the size to match the columns and rows is quite unnece
 
 ```
 
-### Final sketch: Add a way to create more square for every square on the horizon line
+### Final sketch:
 
 <iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
 
 
+# Square Grid homework
+## Initial idea: Create instance for total columns and rows
