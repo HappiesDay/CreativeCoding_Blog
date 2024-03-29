@@ -13,7 +13,7 @@ Hello, world
 ## Initial idea: Create instance for total columns and rows
 My idea is to create another instance to generate square in the row for every i loop.
 The concept is called "Nested loop", which I learn from this tutorial
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RCPof5TC-Gs?si=TPQMZ8EUzrcSwuC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/RCPof5TC-Gs?si=TPQMZ8EUzrcSwuC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Therefore in my code, I change the loop part to become:
 
@@ -63,4 +63,4 @@ This is an interactive web, and the circle and color respond to the mouse, there
 -lerp: since the color is gradient
 
 ## Test for the use of mouse X and mouse Y in color changing
-
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/nicMAoW6u1g?si=FQDd7eDzEOLOaXSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
