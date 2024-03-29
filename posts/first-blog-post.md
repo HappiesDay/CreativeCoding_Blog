@@ -42,7 +42,7 @@ function draw()
   }
 }
 ```
-<iframe src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
+<iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
 
 ## Second idea: Change the size of square
 
