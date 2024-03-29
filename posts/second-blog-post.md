@@ -10,7 +10,12 @@ disable_html_sanitization: true
 Hello, homework
 
 
-# This is sketch for the grid homework
+# Sketch for Fatal of the flesh
+## Draw a line when mouse pressed is register
+Using Mouse X and Mouse Y as coordinate, I can make a line using the current mouse position and the after 0.2 second mouse position
+<br>
+The original work doesn't have a countinuos cut, therefore I make a timer whenever the mouse press but it didnt work out in this sketch
+<iframe src="https://editor.p5js.org/HappiesDay/full/Tm_A2P_P7"></iframe>
 
 
 ## Initial idea: Create instance for total columns and rows
