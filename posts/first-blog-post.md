@@ -16,7 +16,6 @@ The concept is called "Nested loop", which I learn from this tutorial
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCPof5TC-Gs?si=TPQMZ8EUzrcSwuC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Therefore in my code, I change the loop part to become:
 ```
-```
 function draw() 
 {
   const t = frameCount / 25
