@@ -24,7 +24,7 @@ function draw()
   const total_squares = 10
     const totalColumns = innerWidth / total_squares 
     
-    const totalRows = innerHeight/ total_squares 
+    const totalRows = innerHeight/ total_squares //My attempt to balance the size 
 
   background(`turquoise`);
   fill (`deeppink`)
@@ -32,7 +32,7 @@ function draw()
   const size = width / total_squares *0.90
   for (let i = 0; i < totalColumns; i++) 
   {
-    for (let j = 0; j < totalRows; j++)
+    for (let j = 0; j < totalRows; j++)   //My attempt to add another row 
     {
       const x = width * (i + 0.5) / totalColumns
       const y = height * (j + 0.5) / totalRows
