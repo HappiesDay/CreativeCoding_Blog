@@ -9,9 +9,12 @@ disable_html_sanitization: true
 Hello, world
 
 
-# Grid
+# Square Grid homework
 ## Initial idea: Create instance for total columns and rows
-At first to make 
+My idea is to create another instance to generate square in the row for every i loop.
+The concept is called "Nested loop", which I learn from this tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RCPof5TC-Gs?si=TPQMZ8EUzrcSwuC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Therefore in my code, I change the loop part to become:
 ```
 function draw() 
 {
@@ -37,6 +40,7 @@ function draw()
   }
 }
 ```
+<iframe src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
 
 ## Second idea: Change the size of square
 
