@@ -7,7 +7,7 @@ disable_html_sanitization: true
 
 ---
 
-Hello, blog
+Hello, homework
 
 
 # This is sketch for the grid homework
