@@ -64,3 +64,11 @@ This is an interactive web, and the circle and color respond to the mouse, there
 
 ## Test for the use of mouse X and mouse Y in color changing
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/nicMAoW6u1g?si=FQDd7eDzEOLOaXSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+To achieve the mouse X mouse Y value, I follow the map similiar to this video creating this
+<iframe src="https://editor.p5js.org/HappiesDay/full/eP3IlkY5C"></iframe>
+
+## Convert mouse X mouse Y to rotate 
+<iframe src="https://editor.p5js.org/HappiesDay/full/b9vthaq0z"></iframe>
+
+However I can not seem to put together how to incoperate gradient into this rotation
