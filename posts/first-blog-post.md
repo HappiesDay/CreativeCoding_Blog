@@ -1,5 +1,5 @@
 ---
-title: Week 1
+title: Week 1 Intro to ps5
 published_at: 2024-3
 snippet: Week 1
 disable_html_sanitization: true

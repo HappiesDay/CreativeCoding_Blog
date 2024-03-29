@@ -1,5 +1,5 @@
 ---
-title: Week 2
+title: Week 2 Basic JavaScript concept
 published_at: 2024-3
 snippet: Week 2
 disable_html_sanitization: true
