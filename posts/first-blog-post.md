@@ -18,17 +18,10 @@ The concept is called "Nested loop", which I learn from this tutorial
 Therefore in my code, I change the loop part to become:
 
 ```
-function draw() 
-{
-  const t = frameCount / 25
-  const total_squares = 10
-    const totalColumns = innerWidth / total_squares 
+  const totalColumns = innerWidth / total_squares 
     
-    const totalRows = innerHeight/ total_squares //My attempt to balance the size 
+  const totalRows = innerHeight/ total_squares //My attempt to balance the size 
 
-  background(`turquoise`);
-  fill (`deeppink`)
- 
   const size = width / total_squares *0.90
   for (let i = 0; i < totalColumns; i++) 
   {
@@ -40,11 +33,15 @@ function draw()
       square (x, y, t * ((i + j)+1) % size)
     }
   }
-}
 ```
-<iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
+<iframe width="100%" src="https://editor.p5js.org/HappiesDay/full/mfwKcft72"></iframe>
 
 ## Second idea: Change the size of square
+I find that by automating the size to match the columns and rows is quite unnecessary so I change the size to depend only on the total squares
+```
+  const size = (width / total_squares)*0.8; // Size of each square
+
+
 
 ### Third idea: Add a way to create more square for every square on the horizon line
 
