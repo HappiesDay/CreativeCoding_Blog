@@ -37,8 +37,7 @@ The end result is this which is similiar to a basic painting programme.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cgk2BOM7KZk?si=MTIEZ4fpLmToxPfS&amp;start=4199" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 I use a new sketch to simplify my steps. Since the shape is randomized along with the new concept called vertex the lecturer show in the falling falling I think it is best use with circle since circle or eclipse shape can morph into other shape. In this sketch I tried to follow this youtube tutorial to make a shape every new frame
-<iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe><iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe>
-
+<iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe>
 ### Combining the two
 <iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/4kvHIq4zw"></iframe>
 
