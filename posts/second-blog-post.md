@@ -10,6 +10,7 @@ disable_html_sanitization: true
 Hello, homework
 
 # Refactor
+The practice gives me a bit of frustration, however after finishing I understand that by learning to make code cleaner and efficient will open the door to better automate code organizing. Moreover, it is easier to debug and scale up if needed. It is also an easy boost to performance for both machine and human as we tends to reference our own work at some point or in the near future.
 <iframe src="https://editor.p5js.org/HappiesDay/full/b39uwtomr"></iframe>
 
 # Response to Only Suddenly
