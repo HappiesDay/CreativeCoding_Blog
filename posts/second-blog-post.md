@@ -18,9 +18,25 @@ The original work doesn't have a countinuos cut, therefore I make a timer whenev
 <iframe src="https://editor.p5js.org/HappiesDay/full/Tm_A2P_P7"></iframe>
 
 
-## Initial idea: Create instance for total columns and rows
+## Change to mouseDragged
+Instead of using mouseclick, I change to drag for easier management. The code is also cleaner and more compact
+```
+function mouseDragged() {
+  pressTime = setTimeout(startDragging, 400); //When press start timer
+  isDragging = true //reset if the dragging is true
+}
 
-## Second idea: Change the size of square
+function startDragging() {
+  isDragging = false;
+}
+```
+Now I have to add a way for the line to reset every half second
+
+## Generate a new shape
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cgk2BOM7KZk?si=MTIEZ4fpLmToxPfS&amp;start=4199" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+I use a new sketch to simplify my steps. Since the shape is randomized along with the new concept called vertex the lecturer show in the falling falling I think it is best use with circle since circle or eclipse shape can morph into other shape. In this sketch I tried to follow this youtube tutorial to make a shape every new frame
+<iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe><iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe>
 
 ### Third idea: Add a way to create more square for every square on the horizon line
 ## **FINAL PRODUCT**
