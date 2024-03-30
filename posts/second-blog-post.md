@@ -30,7 +30,8 @@ function startDragging() {
   isDragging = false;
 }
 ```
-Now I have to add a way for the line to reset every half second
+The end result is this which is similiar to a basic painting programme.
+<iframe src="https://editor.p5js.org/HappiesDay/full/aHv9ZxG0s"></iframe>
 
 ## Generate a new shape
 
@@ -38,8 +39,8 @@ Now I have to add a way for the line to reset every half second
 I use a new sketch to simplify my steps. Since the shape is randomized along with the new concept called vertex the lecturer show in the falling falling I think it is best use with circle since circle or eclipse shape can morph into other shape. In this sketch I tried to follow this youtube tutorial to make a shape every new frame
 <iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe><iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe>
 
-### Third idea: Add a way to create more square for every square on the horizon line
-## **FINAL PRODUCT**
+### Combining the two
+<iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/4kvHIq4zw"></iframe>
 
 <iframe src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
 
