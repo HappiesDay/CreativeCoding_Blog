@@ -42,5 +42,4 @@ I use a new sketch to simplify my steps. Since the shape is randomized along wit
 ### Combining the two
 <iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/4kvHIq4zw"></iframe>
 
-<iframe src="https://editor.p5js.org/HappiesDay/full/LpYEK21eS"></iframe>
 
