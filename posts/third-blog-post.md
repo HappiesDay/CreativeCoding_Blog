@@ -31,7 +31,19 @@ With coherent aesthetic frame, we can bypass some originality novelty, refrains 
 
 <br>
 
-### Third idea: Add a way to create more square for every square on the horizon line
+# AT1L: Journey: The way to Fillthisup.cpm
+<br>
+
+## what about the work makes it belong to the aesthetic category of "cute"?
+For me, the cuteness lies in 2 parts: the control over shape generation and the color.
+Controling this color-jitter-like brush empower me, making me wanting dominate it and effectively give me the entice to do so. I can also define the composition however I want, but in the end I feel the compusle to fill the entire screen, essential indicate that its vulnerbility making demand out of me. 
+The color is pastel, gradient which makes the overall mood and style gentle, calming but also we can erase it. 
+
+
+
+## How does the artist employ effective complexity in the work to achieve its aesthetic result?
+The unpredictability of the shape but is always less than 6 n-gons make it not so dramtic, the shape generally don't appear shape and stay true to it lovable, easy looking style. and the randomized color stay within the pastel frame, no color is oversaturated making it easy on the eye, further complementing the softer shape.
+
 
 <br> 
 
