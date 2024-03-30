@@ -21,7 +21,12 @@ Baby-like, disproportionally small, defenseless, or completed ownership give us 
 
 ## Effective Complexity?
 
-Effective Complexity explores the structural balance between making sense and unpredictable variety. Too much would represent chaos and too little would be rigid rules. In cute aesthetic, it is about simplicity and complexity dwell within. Take the example of the mouse Jerry from Tom and Jerry animated series. Jerry has a simple, adorable design, big eyes. However, his expressive facial reactions opens up the complicated naughty personality inside which adds depth to initial façade innocence outlook. A cute look reinforced by a contrasting behavior pushes the sweet spot of making sense of what we're seeing, but also enough unpredictability or variety to keep things interesting.
+Effective Complexity explores the structural balance between making sense and unpredictable variety. Too much would represent chaos and too little would be rigid rules. Murray and Seth agrees that "Effective complexity can be high only a region intermediate between total
+order and complete disorder." Which steam from the idea that the polarized extreme side of absolute random and eternal uniformity are simple and lack engagements.
+<br>
+In cute aesthetic, it is about enough simplicity and complexity dwell within to make certain entity interesting. Take the example of the Ape NFT. The Ape has a simple, adorable design, big eyes. However, his expressive facial reactions and accessory open up the complicated naughty personality inside which adds depth to initial façade innocence outlook. A cute look reinforced by contrasting behavior pushes the sweet spot of making sense of what we're seeing, but also enough unpredictability or variety to keep things challenging.
+<br>
+With coherent aesthetic frame, we can bypass some originality novelty, refrains its unexpectability to certain mood and style. This approach effective gives it an inherent foundation and composition that can be built upon. The redundancy is not just tolerated but is a key feature of the aesthetic, contributing to the overall experience in a soothing and comforting respond. 
 
 
 <br>
