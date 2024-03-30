@@ -10,8 +10,8 @@ disable_html_sanitization: true
 Hello, homework
 
 
-# Sketch for Fatal of the flesh
-## Draw a line when mouse pressed is register
+# Sketch for Fatal of the flesh then later change to Fill this up
+## Draw a line when mouse pressed is register (Old concept form the work fatal o the Flesh)
 Using Mouse X and Mouse Y as coordinate, I can make a line using the current mouse position and the after 0.2 second mouse position
 <br>
 The original work doesn't have a countinuos cut, therefore I make a timer whenever the mouse press but it didnt work out in this sketch
