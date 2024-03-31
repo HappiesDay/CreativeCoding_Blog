@@ -35,15 +35,15 @@ With coherent aesthetic frame, we can bypass some originality novelty, refrains 
 <br>
 
 ## what about the work makes it belong to the aesthetic category of "cute"?
-For me, the cuteness lies in 2 parts: the control over shape generation and the color.
-Controling this color-jitter-like brush empower me, making me wanting dominate it and effectively give me the entice to do so. I can also define the composition however I want, but in the end I feel the compusle to fill the entire screen, essential indicate that its vulnerbility making demand out of me. 
-The color is pastel, gradient which makes the overall mood and style gentle, calming but also we can erase it. 
+For me, the charm of cuteness is found in two main aspects: the ability to shape and create, and the use of color.<br>
+Controling this color-jitter-like brush empower me, making me wanting master it and it is enticing to try. I can also define the composition however I want, but in the end I feel the compusle to fill the entire screen, essential indicate that its vulnerbility demand me to cover it up and protecting it. <br>
+The color is soft pastel, gradients that blends with the white background which makes the overall mood and style gentle, calming. Yet on the other hand, in this case on the other mouse button, brings about the ability to erase and start anew. Adding layer of white to the underlying color make it seems like an earaser, but in reality, we are adding depth to the fleeing moments of the artwork. <br>
+All together, this art make it self feel cute.
 
 
 
 ## How does the artist employ effective complexity in the work to achieve its aesthetic result?
-The unpredictability of the shape but is always less than 6 n-gons make it not so dramtic, the shape generally don't appear shape and stay true to it lovable, easy looking style. and the randomized color stay within the pastel frame, no color is oversaturated making it easy on the eye, further complementing the softer shape.
-
+The unpredictability of the shape but is always less than 6 n-gons make it not so dramtic, the shape generally don't appear sharp and stay true to it lovable, easy looking style. Additionally, the colors are chosen at random but stay within a range of soft pastels. No one color is too bright or too saturated, which makes everything easy on the eyes and nicely smooth out the edges of the shapes. The ability to add white shape or eraser give us control and essentially forfeit its absolute randomness. Vice versa, the ability to control where the brush goes make it predictable and rigid, but is compensated by other feature meantion above.
 
 <br> 
 
