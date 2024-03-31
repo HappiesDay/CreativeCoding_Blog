@@ -88,7 +88,23 @@ I use a new sketch to simplify my steps. Since the shape is randomized along wit
 
 
 ## Change idea
-At this point, I drop the shape generator and change the line to become a animated line that follows the cursor arround. Additional, I add a second chaotic phase when the mouse is pressed, toggling a new dimension. Although it start out black and white, I really like this variant because 
+At this point, I drop the shape generator and change the line to become a animated line that follows the cursor arround. Additional, I add a second chaotic phase when the mouse is pressed, toggling a new dimension.
+```
+function draw() {
+  if (patternState === 0) {
+    background(255); // Set a white background to contrast with the pattern
+
+    shapes.forEach(shape => {
+      shape.update(mouseX, mouseY); // Update each shape's position based on the mouse
+      shape.display(); // Display each shape
+    });
+  } else {
+    drawPatternTwo();
+  }
+
+```
+Through this change of state, it opens my work to a second phase where thing can get more experimental.
+ Although it start out black and white, I really like this variant because 
 without the color, the work seems to have the clearest narrative. But without color, it does not provoke the sense of fuzziness and uncomfortable I'm looking for in the cute framework.
 <iframe width="100%" height=400px src="https://editor.p5js.org/HappiesDay/full/dle8YjHER"></iframe>
 
