@@ -31,10 +31,10 @@ With coherent aesthetic frame, we can bypass some originality novelty, refrains 
 
 <br>
 
-# AT1L: Journey: The way to Fillthisup.cpm
+# AT1L: Journey: The way to Fill this up 
 <br>
 
-## what about the work makes it belong to the aesthetic category of "cute"?
+## What about the work makes it belong to the aesthetic category of "cute"?
 For me, the charm of cuteness is found in two main aspects: the ability to shape and create, and the use of color.<br>
 Controling this color-jitter-like brush empower me, making me wanting master it and it is enticing to try. I can also define the composition however I want, but in the end I feel the compusle to fill the entire screen, essential indicate that its vulnerbility demand me to cover it up and protecting it. <br>
 The color is soft pastel, gradients that blends with the white background which makes the overall mood and style gentle, calming. Yet on the other hand, in this case on the other mouse button, brings about the ability to erase and start anew. Adding layer of white to the underlying color make it seems like an earaser, but in reality, we are adding depth to the fleeing moments of the artwork. <br>
@@ -47,7 +47,13 @@ The unpredictability of the shape but is always less than 6 n-gons make it not s
 
 <br> 
 
-# Sketch for Fatal of the flesh then later change to Fill this up
+# Fill this up (and a bit of fatal of the flesh)
+## Rozendaal's work quality that I retain
+The javascript that I experimented with to support my design composition is the variables to make the location date easier to manage, utilizing variables to manage location data more effectively, incorporating randomness for added excitement, implementing mouse interaction variables such as mouseX and mouseY, and utilizing state variables like 'dragged' and 'pressed'. Additionally, I employed the draw pattern function to transition between two phases of the composition. 
+For the design composition of the second phase, the randomness of the bombarding lines contributes to the sensation of 'itchiness'. The red hot color palette, pink, and purple, adds a playful yet dynamic opposite to the singular tracing line in the first phase. They also look like donut sprinkles at times.
+
+
+
 ## Draw a line when mouse pressed is register (Old concept form the work fatal o the Flesh)
 Using Mouse X and Mouse Y as coordinate, I can make a line using the current mouse position and the after 0.2 second mouse position
 <br>
@@ -82,11 +88,10 @@ I use a new sketch to simplify my steps. Since the shape is randomized along wit
 
 
 ## Change idea
-
-
+At this point, I drop the shape generator and change the line to become a animated line that follows the cursor arround. Additional, I add a second chaotic phase when the mouse is pressed, toggling a new dimension. Although it start out black and white, I really like this variant because 
+without the color, the work seems to have the clearest narrative. But without color, it does not provoke the sense of fuzziness and uncomfortable I'm looking for in the cute framework.
 <iframe width="100%" height=400px src="https://editor.p5js.org/HappiesDay/full/dle8YjHER"></iframe>
 
-
-
-#Final
-<iframe src="https://editor.p5js.org/HappiesDay/full/iSoRr4Flx"></iframe>
+# Final
+To make this feel more complete, I add minute things such as color jitter when the mouse moving franticly arround the screen. Moreover I add slight increase to the line weight but it is not as noticable.
+<iframe  width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/iSoRr4Flx"></iframe>
