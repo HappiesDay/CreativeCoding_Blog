@@ -77,4 +77,11 @@ I use a new sketch to simplify my steps. Since the shape is randomized along wit
 <iframe src="https://editor.p5js.org/HappiesDay/full/RxTIvkUaL"></iframe>
 
 ### Combining the two
-<iframe width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/4kvHIq4zw"></iframe>
+<iframe width="100%" height=400px src="https://editor.p5js.org/HappiesDay/full/4kvHIq4zw"></iframe>
+
+
+
+## Change idea
+
+
+<iframe width="100%" height=400px src="https://editor.p5js.org/HappiesDay/full/dle8YjHER"></iframe>
