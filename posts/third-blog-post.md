@@ -93,5 +93,5 @@ without the color, the work seems to have the clearest narrative. But without co
 <iframe width="100%" height=400px src="https://editor.p5js.org/HappiesDay/full/dle8YjHER"></iframe>
 
 # Final
-To make this feel more complete, I add minute things such as color jitter when the mouse moving franticly arround the screen. Moreover I add slight increase to the line weight but it is not as noticable.
+To make this feel more complete, I add minute things such as color jitter when the mouse moving franticly arround the screen. Moreover I add slight increase to the line weight but it is not as noticable. I also add variety if you decide to click the mouse a bunch more time.
 <iframe  width="100%" height=800px src="https://editor.p5js.org/HappiesDay/full/iSoRr4Flx"></iframe>
