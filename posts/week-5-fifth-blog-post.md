@@ -9,7 +9,7 @@ disable_html_sanitization: true
 Hello, world
 
 # Comments on the Glitch code
-```
+
 <canvas id="glitch_self_portrait"></canvas> 
 
 <script type="module">
@@ -74,7 +74,7 @@ Hello, world
    }
 
 </script>
-```
+
 
 
 
