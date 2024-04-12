@@ -1,7 +1,7 @@
 ---
-title: Week 3 Effective Complexity and the Cute
-published_at: 2024-3
-snippet: Week 3
+title: Week 5 Glitch
+published_at: 2024-4
+snippet: Week 5
 disable_html_sanitization: true
 
 ---
