@@ -14,10 +14,10 @@ Hello, world
 
 <script type="module">
 
-   const cnv = document.getElementById (`glitch_self_portrait`)
-   cnv.width = cnv.parentNode.scrollWidth
-   cnv.height = cnv.width * 9 / 16
-   cnv.style.backgroundColor = `deeppink`
+   const cnv = document.getElementById (`glitch_self_portrait`) //get the canvas width and height
+   cnv.width = cnv.parentNode.scrollWidth //Including width that is not visible by overflow
+   cnv.height = cnv.width * 9 / 16 //Screen ratio
+   cnv.style.backgroundColor = `red`
 
    const ctx = cnv.getContext (`2d`)
 
