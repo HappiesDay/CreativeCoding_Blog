@@ -16,33 +16,41 @@ Hello, world
 
    const cnv = document.getElementById (`glitch_self_portrait`) //get the canvas width and height
    cnv.width = cnv.parentNode.scrollWidth //Including width that is not visible by overflow
-   cnv.height = cnv.width * 9 / 16 //Screen ratio
+   cnv.height = cnv.width * 9 / 16 //Calculate canvas height
    cnv.style.backgroundColor = `red`
 
-   const ctx = cnv.getContext (`2d`)
+   const ctx = cnv.getContext (`2d`) //Create a 2D object based on the canvas size
 
    let img_data
 
-   const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
-
-   const img = new Image ()
-   img.onload = () => {
-      cnv.height = cnv.width * (img.height / img.width)
-      draw (img)
+   const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height) 
+   //drawImage(image, dx, dy, dWidth, dHeight) 
+   //in this case, i is the glitched image (layered on top), the image is located at top left, canvas width and height)
+   const img = new Image () //Create a new image
+   img.onload = () => { //this image have the glitch
+      cnv.height = cnv.width * (img.height / img.width) //make the canvas width/ canvas height same ratio as image width/ image height
+      draw (img) 
       img_data = cnv.toDataURL ("image/jpeg")
-      add_glitch ()
+      add_glitch () //call function to add glitch
    }
    img.src = `/240405/pfp_glasses.jpg`
 
-   const rand_int = max => Math.floor (Math.random () * max)
-
+   const rand_int = max => Math.floor (Math.random () * max) 
+   //Create a random whole number, max as a placeholder
+   //
    const glitchify = (data, chunk_max, repeats) => {
+   // Calculate the glitch size
       const chunk_size = rand_int (chunk_max / 4) * 4
+      // ensure the inside glitch chunk smaller than the maximum glitch chunk
       const i = rand_int (data.length - 24 - chunk_size) + 24
+      //use the image size x a random number to 0 to _
       const front = data.slice (0, i)
+      //slice (start, end), for this one, take a random data from top pixel line to a random line
       const back = data.slice (i + chunk_size, data.length)
       const result = front + back
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
+      //if repeat attempts >0, continue to glitch
+      //if repeat reach 0, stop
    }
 
    const glitch_arr = []
@@ -59,7 +67,7 @@ Hello, world
 
    let is_glitching = false
    let glitch_i = 0
-
+   
    const draw_frame = () => {
       if (is_glitching) draw (glitch_arr[glitch_i])
       else draw (img)
