@@ -13,16 +13,12 @@ Hello, world
 ## What is fractal aesthetic?
 
 Fractal aesthetics can be easily understood without an explanation of mathematics. They feature "self-similarity," repetitive and detailed patterns. The defining attribute is high complexity, as the visual continues, creating mini versions of itself that reappear and scale down all the data (Mandelbrot 1983), rendering it a densely related visual. <br>
-Fractals, born from recursion's embrace in computation and mathematic is chaotic by nature as it fits 2 of Ngai desciption on the zanni aesthetic: performative, execessive and mimicry. 
+Fractals, born from recursion's embrace in computation and mathematic is chaotic by nature as it fits 3 of Ngai desciption on the zanni aesthetic: performative, execessive and mimicry. 
 Mirroring the recursive nature of fractals' self-replicating patterns and through their dynamic and self iterating attribute of recusion, fractals encapsulate the essence of chaos, exaggerated gestures to draw us into their mesmerizing world of complexity.<br>
 [Wiki Fractal (More on the mathematic history)](https://en.wikipedia.org/wiki/Fractal)
 
 <br>
-With the rise of recusrion, this way of 
-
-Baby-like, disproportionally small, defenseless, or completed ownership give us a quality of being superior. The urge to buy, to possess and to get close is a commodity aesthetic (Ngai 2020). For example, Hello Kitty is very popular due to its pink pastel and innocent appeal that also makes it a widely sold and lovable product. Accessibility is important for power dynamics. This also tightly intertwined with consumer culture. We want to get close to it first, fixate our curiosity and violently consume it. On one side we like it enough to protect it and on the other side, we are hypnotized to do so willingly.<br>
- "Cute" aesthetic, it often makes us feel a special way, sparking emotions like warmth and love. But how we react to cuteness can be influenced by our culture and society. Sometimes, what's considered cute can bring out tender feelings, and other times, it might lead us to view things in a less serious, more playful light. While art does not always share all the cute definitions, art comes from a place of narrative or abstract, making it qualifies for empathy and vulnerability, and expression, the quality of touchable.
-
+Geometry and symmetrical present us it's crowded chaotic order with [Sierpiński triangle] (https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) or [Gosper curve] (https://en.wikipedia.org/wiki/Fractal_curve) while its nature counterpart bring about the fancy irregularity in simple objects such as seashell, snowflake and brocolli.
 
 <br>
 
