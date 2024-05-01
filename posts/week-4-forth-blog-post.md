@@ -171,8 +171,7 @@ drawBranch(0)
 
 <br>
 
-When doing this fractal, my main takeaway is how the canvas context API was applied in this work.
-
+When doing this fractal, my main takeaway is how the canvas context API was applied in this work. 
 Firstly the basic foundation to draw the stroke consist of [these 4](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo)
 
 ```
@@ -182,6 +181,8 @@ ctx.beginPath()
    ctx.stroke()
 
 ```
+<br>
+
 These 4 are essential to create a stroke and can be used for more advance polygons but here i only need the thick strokes so I only need one ctx.lineTo. The combination of the 4 feels like a vector drawing programm like Adobe Illustrator where **beginPath** is when you click the pen icon, **moveTo** is when you click on the canvas and it shows a dot, **lineTo** is when you dragged the mouse and a dynamic line that follows your cursor and **ctx.Stroke** is when you click again to settle the line. However in this work I don't utilise the x and y position as much since most of it are done via the ctx.translate in  which requires less calculations and relies on ctx.save and ctx.restore more.
 
 ```
