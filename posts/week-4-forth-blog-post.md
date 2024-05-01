@@ -46,7 +46,7 @@ ctx.strokeStyle = 'black'
 ctx.lineWidth = 30
 ctx.lineCap = 'round'
 ctx.save()
-ctx.translate(cnv.width/3,cnv.height/2)
+ctx.translate(0,cnv.height/2)
 ctx.scale(1,1)
 ctx.rotate(0)
 
