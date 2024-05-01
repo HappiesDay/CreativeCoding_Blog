@@ -42,7 +42,7 @@ const ctx = cnv.getContext('2d')
 
 // Drawing setup
 ctx.fillStyle = '#A6B8A5'
-ctx.strokeStyle = '#02590F'
+ctx.strokeStyle = '#A6B8A5'
 ctx.lineWidth = 30
 ctx.lineCap = 'round'
 ctx.save()
@@ -62,6 +62,12 @@ let branhces = 2
 function drawBranch(level)
 {
    if (level> maxLevel) return
+    if (level > 9) {
+        ctx.strokeStyle = '#02590F'; // New stroke color
+    }
+    else {
+      ctx.strokeStyle = '#A6B8A5'
+    }
    ctx.beginPath()
    ctx.moveTo(0,0)
    ctx.lineTo(size,0)
@@ -82,11 +88,7 @@ function drawBranch(level)
    drawBranch(level + 1)
    ctx.restore()
 
-   if (level > 9) 
-    {
-    ctx.strokeStyle = '#02590F'; // New stroke color
-    }
-}
+  
 }
 drawBranch(0)
 
