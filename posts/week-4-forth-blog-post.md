@@ -98,20 +98,6 @@ function drawBranch(level)
 }
 drawBranch(0)
 
-// for (let i = 0; i < sides; i++)
-// {  
-// console.log('hekki')
-
-
-
-// ctx.fillRect (50,50,100,100)
-// ctx.beginPath()
-// ctx.moveTo(0,0)
-// ctx.lineTo(size,0)
-// console.log('0')
-// ctx.stroke()
-// ctx.restore()
-// }
 })
 
 </script>
@@ -176,20 +162,6 @@ function drawBranch(level)
 }
 drawBranch(0)
 
-// for (let i = 0; i < sides; i++)
-// {  
-// console.log('hekki')
-
-
-
-// ctx.fillRect (50,50,100,100)
-// ctx.beginPath()
-// ctx.moveTo(0,0)
-// ctx.lineTo(size,0)
-// console.log('0')
-// ctx.stroke()
-// ctx.restore()
-// }
 })
 
 </script>
@@ -211,10 +183,20 @@ ctx.beginPath()
 
 ```
 These 4 are essential to create a stroke and can be used for more advance polygons but here i only need the thick strokes so I only need one ctx.lineTo. The combination of the 4 feels like a vector drawing programm like Adobe Illustrator where **beginPath** is when you click the pen icon, **moveTo** is when you click on the canvas and it shows a dot, **lineTo** is when you dragged the mouse and a dynamic line that follows your cursor and **ctx.Stroke** is when you click again to settle the line. However in this work I don't utilise the x and y position as much since most of it are done via the ctx.translate in  which requires less calculations and relies on ctx.save and ctx.restore more.
+
 ```
-   
+   ctx.save()
+   ctx.translate(x,y)
+   ctx.rotate(r) //r as in Radiant, max is ~3.14
+   ctx.scale(s1, s2)
+   drawBranch(level + 1) //recursion with condition
+   ctx.restore()
+
 ```
-The effect 
+
+In here is where the iteration occur with the use of recursion by calling itself within the function, however in here I set a level condition so the function doesn't loop infinitly and I also use level to change the color of the end bits of the broccoli. This broccoli is absense of randomness since I like how the branches symmertically bloom better.
 
 <br>
-Secondly, through the use of recursion, I be able to iterate the smaller branches.
+
+By the use of recursion, we can introduce intricate patterns, complex textures but dynamic. It achieves a share similiar attribute with loops which maximize the visual therefore enhanced the chaos. Moreover, recursion can generate unbounded iterations growth in data structures or processes, potentially crashing, which fits the A2 post-digital theme and unpredictable outcomes.
+
