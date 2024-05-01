@@ -13,6 +13,8 @@ Hello, world
 ## What is fractal aesthetic?
 
 Fractal aesthetics can be easily understood without an explanation of mathematics. They feature "self-similarity," repetitive and detailed patterns. The defining attribute is high complexity, as the visual continues, creating mini versions of itself that reappear and scale down all the data (Mandelbrot 1983), rendering it a densely related visual.
+While
+
 [Wiki Fractal (More on the mathematic history)](https://en.wikipedia.org/wiki/Fractal)
 
 <br>
