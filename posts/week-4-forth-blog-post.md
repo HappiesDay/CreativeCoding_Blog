@@ -9,10 +9,15 @@ disable_html_sanitization: true
 Hello, world
 
 
-# AT1 concept
-## What is cute as an catergory?
-Cute is easy to understand since it is very intuitively easy to acknowledge via its look, its sensory feeling, or its lack of other quality. It can be defined as the spare time for empathy via its vulnerability and commodity.<br>
-Firstly, vision serves as a primary sense, as we, as humans, are hard-wired to assess potential threats swiftly. If an entity does not pose imminent danger, then we are to judge it as weird or cute depending on if we are able to attach human-like qualities to it. For example, a lion tripped and fell into the water video would be cute if it stays a video. We can empathize with the lion since we are not there with the lion. Similarly, if it lacks a self-defense mechanism and approachability is available, a power dynamic is formed. <br>
+# Fractal 
+## What is fractal aesthetic?
+
+Fractal aesthetics can be easily understood without an explanation of mathematics. They feature "self-similarity," repetitive and detailed patterns. The defining attribute is high complexity, as the visual continues, creating mini versions of itself that reappear and scale down all the data (Mandelbrot 1983), rendering it a densely related visual.
+[a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29)
+
+<br>
+With the rise of recusrion, this way of 
+
 Baby-like, disproportionally small, defenseless, or completed ownership give us a quality of being superior. The urge to buy, to possess and to get close is a commodity aesthetic (Ngai 2020). For example, Hello Kitty is very popular due to its pink pastel and innocent appeal that also makes it a widely sold and lovable product. Accessibility is important for power dynamics. This also tightly intertwined with consumer culture. We want to get close to it first, fixate our curiosity and violently consume it. On one side we like it enough to protect it and on the other side, we are hypnotized to do so willingly.<br>
  "Cute" aesthetic, it often makes us feel a special way, sparking emotions like warmth and love. But how we react to cuteness can be influenced by our culture and society. Sometimes, what's considered cute can bring out tender feelings, and other times, it might lead us to view things in a less serious, more playful light. While art does not always share all the cute definitions, art comes from a place of narrative or abstract, making it qualifies for empathy and vulnerability, and expression, the quality of touchable.
 
