@@ -23,6 +23,8 @@ Geometry and symmetrical present us it's crowded chaotic order with [Sierpiński
 <br>
 
 ## My attempt at Broccoli Fractal
+Please welcome my broccoli
+<hr>
 I follow [this tutorial](https://www.youtube.com/watch?v=dQKYao-daYw&t=1693s) by Frank laboratory
 <br>
 <canvas id='fractal_broccoli'></canvas>
