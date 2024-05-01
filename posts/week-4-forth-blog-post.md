@@ -15,10 +15,10 @@ Hello, world
 Fractal aesthetics can be easily understood without an explanation of mathematics. They feature "self-similarity," repetitive and detailed patterns. The defining attribute is high complexity, as the visual continues, creating mini versions of itself that reappear and scale down all the data (Mandelbrot 1983), rendering it a densely related visual. <br>
 Fractals, born from recursion's embrace in computation and mathematic is chaotic by nature as it fits 3 of Ngai desciption on the zanni aesthetic: performative, execessive and mimicry. 
 Mirroring the recursive nature of fractals' self-replicating patterns and through their dynamic and self iterating attribute of recusion, fractals encapsulate the essence of chaos, exaggerated gestures to draw us into their mesmerizing world of complexity.<br>
-[Wiki Fractal (More on the mathematic history)](https://en.wikipedia.org/wiki/Fractal)
+[Wiki Fractal (More on the mathematic history)](https://en.wikipedia.org/wiki/Fractal) <br>
 
-<br>
-Geometry and symmetrical present us it's crowded chaotic order with [Sierpiński triangle] (https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) or [Gosper curve] (https://en.wikipedia.org/wiki/Fractal_curve) while its nature counterpart bring about the fancy irregularity in simple objects such as seashell, snowflake and brocolli.
+
+Geometry and symmetrical present us it's crowded chaotic order with [Sierpiński triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) or [Gosper curve](https://en.wikipedia.org/wiki/Fractal_curve) while its nature counterpart bring about the fancy irregularity in simple objects such as seashell, snowflake and brocolli.
 
 <br>
 
