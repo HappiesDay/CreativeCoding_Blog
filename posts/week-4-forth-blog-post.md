@@ -42,7 +42,7 @@ window.addEventListener('load', function()
 {
 const cnv = document.getElementById('fractal_broccoli')
 cnv.width = innerWidth
-cnv.height = innerHeight/2
+cnv.height = innerHeight/1.5
 
 const ctx = cnv.getContext('2d')
 
