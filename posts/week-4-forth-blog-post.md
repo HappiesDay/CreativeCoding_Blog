@@ -12,9 +12,9 @@ Hello, world
 # Fractal 
 ## What is fractal aesthetic?
 
-Fractal aesthetics can be easily understood without an explanation of mathematics. They feature "self-similarity," repetitive and detailed patterns. The defining attribute is high complexity, as the visual continues, creating mini versions of itself that reappear and scale down all the data (Mandelbrot 1983), rendering it a densely related visual.
+Fractal aesthetics can be easily understood without an explanation of mathematics. They feature "self-similarity," repetitive and detailed patterns. The defining attribute is high complexity, as the visual continues, creating mini versions of itself that reappear and scale down all the data (Mandelbrot 1983), rendering it a densely related visual. <br>
 Fractals, born from recursion's embrace in computation and mathematic is chaotic by nature as it fits 2 of Ngai desciption on the zanni aesthetic: performative, execessive and mimicry. 
-Mirroring the recursive nature of fractals' self-replicating patternsa and through their dynamic and self iterating attribute of recusion, fractals encapsulate the essence of chaos, exaggerated gestures to draw us into their mesmerizing world of complexity.
+Mirroring the recursive nature of fractals' self-replicating patterns and through their dynamic and self iterating attribute of recusion, fractals encapsulate the essence of chaos, exaggerated gestures to draw us into their mesmerizing world of complexity.<br>
 [Wiki Fractal (More on the mathematic history)](https://en.wikipedia.org/wiki/Fractal)
 
 <br>
