@@ -62,7 +62,7 @@ let branhces = 2
 function drawBranch(level)
 {
    if (level> maxLevel) return
-    if (level > 9) {
+    if (level > 7) {
         ctx.strokeStyle = '#02590F'; // New stroke color
     }
     else {
