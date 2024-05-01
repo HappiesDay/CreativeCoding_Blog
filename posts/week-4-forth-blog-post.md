@@ -1,5 +1,5 @@
 ---
-title: Week 4 Effective Complexity and the Cute
+title: Week 4 Fractal and Recursion 
 published_at: 2024-3
 snippet: Week 4
 disable_html_sanitization: true
@@ -22,12 +22,73 @@ Geometry and symmetrical present us it's crowded chaotic order with [Sierpiński
 
 <br>
 
-## Effective Complexity?
-
-Effective Complexity explores the structural balance between making sense and unpredictable variety. Too much would represent chaos and too little would be rigid rules. Murray and Seth agrees that "Effective complexity can be high only a region intermediate between total
-order and complete disorder." Which steam from the idea that the polarized extreme side of absolute random and eternal uniformity are simple and lack engagements.
+## My attempt at Broccoli Fractal
+I follow [this tutorial](https://www.youtube.com/watch?v=dQKYao-daYw&t=1693s) by Frank laboratory
 <br>
-In cute aesthetic, it is about enough simplicity and complexity dwell within to make certain entity interesting. Take the example of the Ape NFT. The Ape has a simple, adorable design, big eyes. However, his expressive facial reactions and accessory open up the complicated naughty personality inside which adds depth to initial façade innocence outlook. A cute look reinforced by contrasting behavior pushes the sweet spot of making sense of what we're seeing, but also enough unpredictability or variety to keep things challenging.
+<canvas id='fractal_broccoli'></canvas>
+<script>
+  // Default setup
+    const cnv = document.getElementById ('fractal_broccoli')
+    cnv.width = cnv.parentNode.scrollWidth
+    cnv.height = cnv.width * 9 / 16
+
+document.body.style.margin = 0;
+document.body.style.overflow = 'hidden';
+
+
+window.addEventListener('load', function()
+{
+const cnv = document.getElementById('cnv_element');
+cnv.width = innerWidth;
+cnv.height = innerHeight;
+
+const ctx = cnv.getContext('2d');
+
+// Drawing setup
+ctx.fillStyle = '#A6B8A5'
+ctx.strokeStyle = 'black'
+ctx.lineWidth = 30
+ctx.lineCap = 'round'
+ctx.save()
+ctx.translate(cnv.width/3,cnv.height/2)
+ctx.scale(1,1)
+ctx.rotate(0)
+
+
+let size = 200
+let sides = 2
+let maxLevel = 10
+let scale = 0.7
+let spread = 0.5 //radiant unit, max is 3.14
+let branhces = 2
+
+
+function drawBranch(level)
+{
+   if (level> maxLevel) return
+   ctx.beginPath()
+   ctx.moveTo(0,0)
+   ctx.lineTo(size,0)
+   ctx.stroke()
+
+   ctx.save()
+   ctx.translate(size/2,0)
+   ctx.rotate(spread)
+   ctx.scale(scale, scale)
+   drawBranch(level + 1)
+   ctx.restore()
+
+   ctx.save()
+   ctx.translate(size/2,0)
+   ctx.rotate(-spread)
+   ctx.scale(scale, scale)
+   drawBranch(level + 1)
+   ctx.restore()
+
+}
+drawBranch(0)
+
+</script>
 <br>
 With coherent aesthetic frame, we can bypass some originality novelty, refrains its unexpectability to certain mood and style. This approach effective gives it an inherent foundation and composition that can be built upon. The redundancy is not just tolerated but is a key feature of the aesthetic, contributing to the overall experience in a soothing and comforting respond. 
 
