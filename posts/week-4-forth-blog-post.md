@@ -42,7 +42,7 @@ const ctx = cnv.getContext('2d')
 
 // Drawing setup
 ctx.fillStyle = '#A6B8A5'
-ctx.strokeStyle = 'A6B8A5'
+ctx.strokeStyle = '#A6B8A5'
 ctx.lineWidth = 30
 ctx.lineCap = 'round'
 ctx.save()
