@@ -30,7 +30,6 @@ I follow [this tutorial](https://www.youtube.com/watch?v=dQKYao-daYw&t=1693s) by
 // Default setup
 
 document.body.style.margin = 0;
-document.body.style.overflow = 'hidden';
 
 
 window.addEventListener('load', function()
