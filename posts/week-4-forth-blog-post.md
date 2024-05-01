@@ -42,7 +42,91 @@ const ctx = cnv.getContext('2d')
 
 // Drawing setup
 ctx.fillStyle = '#A6B8A5'
-ctx.strokeStyle = '#A6B8A5'
+ctx.strokeStyle = '#02590F'
+ctx.lineWidth = 30
+ctx.lineCap = 'round'
+ctx.save()
+ctx.translate(0,cnv.height/2)
+ctx.scale(1,1)
+ctx.rotate(0)
+
+
+let size = 200
+let sides = 2
+let maxLevel = 10
+let scale = 0.7
+let spread = 0.5 //radiant unit, max is 3.14
+let branhces = 2
+
+
+function drawBranch(level)
+{
+   if (level> maxLevel) return
+   ctx.beginPath()
+   ctx.moveTo(0,0)
+   ctx.lineTo(size,0)
+   ctx.stroke()
+
+   ctx.save()
+   ctx.translate(size/2,0)
+   ctx.rotate(spread)
+   ctx.scale(scale, scale)
+   drawBranch(level + 1)
+   ctx.strokeStyle = '#02590F'
+   ctx.restore()
+
+   ctx.save()
+   ctx.translate(size/2,0)
+   ctx.rotate(-spread)
+   ctx.scale(scale, scale)
+   drawBranch(level + 1)
+   ctx.restore()
+
+   if (level > 9) 
+    {
+    ctx.strokeStyle = '#02590F'; // New stroke color
+    }
+}
+}
+drawBranch(0)
+
+// for (let i = 0; i < sides; i++)
+// {  
+// console.log('hekki')
+
+
+
+// ctx.fillRect (50,50,100,100)
+// ctx.beginPath()
+// ctx.moveTo(0,0)
+// ctx.lineTo(size,0)
+// console.log('0')
+// ctx.stroke()
+// ctx.restore()
+// }
+})
+
+</script>
+
+```
+<canvas id='fractal_broccoli'></canvas>
+<script>
+// Default setup
+
+document.body.style.margin = 0;
+
+
+window.addEventListener('load', function()
+{
+const cnv = document.getElementById('fractal_broccoli')
+cnv.width = innerWidth
+cnv.height = innerHeight/2
+
+const ctx = cnv.getContext('2d')
+
+// Drawing setup
+ctx.fillStyle = '#A6B8A5'
+ctx.strokeStyle = 'black'
 ctx.lineWidth = 30
 ctx.lineCap = 'round'
 ctx.save()
@@ -102,8 +186,11 @@ drawBranch(0)
 
 </script>
 
+```
+
+
 <br>
-With coherent aesthetic frame, we can bypass some originality novelty, refrains its unexpectability to certain mood and style. This approach effective gives it an inherent foundation and composition that can be built upon. The redundancy is not just tolerated but is a key feature of the aesthetic, contributing to the overall experience in a soothing and comforting respond. 
+When doing this broccoli, I 
 
 
 <br>
