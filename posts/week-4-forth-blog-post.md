@@ -25,7 +25,7 @@ Geometry and symmetrical present us it's crowded chaotic order with [Sierpiński
 ## My attempt at Broccoli Fractal
 I follow [this tutorial](https://www.youtube.com/watch?v=dQKYao-daYw&t=1693s) by Frank laboratory
 <br>
-<canvas id='fractal_broccoli' height="600"></canvas>
+<canvas id='fractal_broccoli'></canvas>
 <script>
 // Default setup
 
@@ -36,7 +36,7 @@ window.addEventListener('load', function()
 {
 const cnv = document.getElementById('fractal_broccoli')
 cnv.width = innerWidth
-cnv.height = innerHeight
+cnv.height = innerHeight/2
 
 const ctx = cnv.getContext('2d')
 
