@@ -67,7 +67,7 @@ body{
   font-size: 40px;
   -webkit-text-stroke: 1px darkgreen;
 }
-   </style>
+</style>
 <script>
 import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/three.module.js";
 import {OrbitControls} from "/static/three.module.js";
