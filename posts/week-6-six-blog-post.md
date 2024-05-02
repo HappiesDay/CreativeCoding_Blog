@@ -3,6 +3,11 @@ title: Week 6 Three Js and C2
 published_at: 2024-4
 snippet: Week 5
 disable_html_sanitization: true
+
+---
+
+Hello, world
+
 <style>
 @font-face {
     font-family: GOSTAi;
@@ -50,9 +55,6 @@ body{
   -webkit-text-stroke: 1px darkgreen;
 }
 </style>
----
-
-Hello, world
 
 # Three js
 <canvas id="cnv" width="800" height="800"></canvas>
