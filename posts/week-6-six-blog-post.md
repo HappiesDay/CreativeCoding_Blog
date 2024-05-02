@@ -69,8 +69,8 @@ body{
 }
 </style>
 <script>
-import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/three.module.js";
-import {OrbitControls} from "/static/three.module.js";
+import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/threemodule.js";
+import {OrbitControls} from "/static/threemodule.js";
 console.clear();
 
 class WireSegments extends Object3D {
