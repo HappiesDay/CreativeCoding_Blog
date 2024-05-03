@@ -47,6 +47,7 @@ When load the image, it call the function to start the glitch effects calculatio
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
    }
 ```
+
 This part is mainly about setting up the condition. Here it splits the string into 2 part and later reunite the string. When conditioning, it calculates the glitch size, since the image is now view as string of character and conditions it to ensure the inside glitch chunk smaller than the maximum glitch chunk and only glitch from the pixel line 24th onwards then reunite the string. It glitch a few times then stop.
 <br>
 
