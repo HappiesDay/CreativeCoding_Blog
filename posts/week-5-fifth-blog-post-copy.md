@@ -9,7 +9,7 @@ disable_html_sanitization: true
 Hello, world
 
 # Comments on the Glitch code
-
+```
 <canvas id="glitch_self_portrait"></canvas> 
 
 <script type="module">
@@ -112,7 +112,7 @@ Hello, world
 
 
 </script>
-
+```
 
 
 
@@ -141,7 +141,7 @@ const quicksort = a => {
    return sorted
 }
 ```
-Here we create 3 empty arrays: pivot, left and right. Pivot will contain the brightness of the first pixel of the vertical line of the image as the primary comparasion and push the other pixel to the left and right catergory then sum it up in an array call sorted.
+Here we create 3 empty arrays: pivot, left and right. Pivot will contain the brightness of the first pixel of the vertical line of the image as the primary comparasion and push the other pixel to the left and right catergory then sum it up in an array call sorted. 
 
 ```
 
@@ -210,7 +210,7 @@ For each pixel, it will retrieve 4 value and create a new value called br (brigh
       }
    }
 ```
-We then put them to an array with all the brightness data and create a new image version, this time the data will be sorted by the quick sort script. We then deliver the unsort data to the quick sort and the quick sort will deliver the sorted data, which brings us to the Module script.
+We then put them to an array with all the brightness data and create a new glitched image version, this time the data will be sorted by the quick sort script. We then deliver the unsort data to the quick sort and the quick sort will deliver the sorted data, which brings us to the Module script that will utilize this new data and animate on it.
 
 ```
 <script type="module">
@@ -265,3 +265,6 @@ We then put them to an array with all the brightness data and create a new image
 </script>
 ```
 The final render will be for each collumn, the brightess pixel will be at the top and the darkess at the bottom. We then come to the Module script which is responsible for loading the original image, then replacing some of it with the glitch version via draw frame.
+
+TLDR: We first calculate the position of the pixel within the column, we then extract 4 rgba value out of it and create a fifth value called br (stand brightness). We then compare the brightness and sort them from left to right then use this new data to draw a new, manipulated image.
+
