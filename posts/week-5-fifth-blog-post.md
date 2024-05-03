@@ -94,8 +94,9 @@ This part apply the chunk calculation from above, load a new image ready to be g
 
       requestAnimationFrame (draw_frame)
    }
-   
+
 ```      
+
 This part calculate the probability of the glitch, if it happens to glitch, draw the randomly selected glitched image from the array, if not, draw the original image.
 <br>
 
