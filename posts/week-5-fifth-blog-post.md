@@ -18,6 +18,7 @@ This code focus more on the conditions of the glitch and it works quite linearly
    cnv.style.backgroundColor = `red`
    const ctx = cnv.getContext (`2d`) 
 ```
+
 Default set up
 
 <br>
