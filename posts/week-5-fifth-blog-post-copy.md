@@ -9,7 +9,7 @@ disable_html_sanitization: true
 Hello, world
 
 # Comments on the Glitch code
-
+This code focus more on the conditions of the glitch and it works quite linearly.
 
 ```
    const cnv = document.getElementById (`glitch_self_portrait`) 
@@ -47,7 +47,7 @@ When load the image, it call the function to start the glitch effects calculatio
   
    }
 ```
-This code is mainly about conditioning. Here it splits the string into 2 part and later reunite the string. When conditioning, it calculates the glitch size, since the image is now view as string of character and conditions it to ensure the inside glitch chunk smaller than the maximum glitch chunk and only glitch from the pixel line 24th onwards then reunite the string. It glitch a few times then stop.
+This part is mainly about setting up the condition. Here it splits the string into 2 part and later reunite the string. When conditioning, it calculates the glitch size, since the image is now view as string of character and conditions it to ensure the inside glitch chunk smaller than the maximum glitch chunk and only glitch from the pixel line 24th onwards then reunite the string. It glitch a few times then stop.
 
 ```
    const glitch_arr = []
