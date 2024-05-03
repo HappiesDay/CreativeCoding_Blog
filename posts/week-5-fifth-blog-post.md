@@ -19,7 +19,9 @@ This code focus more on the conditions of the glitch and it works quite linearly
    const ctx = cnv.getContext (`2d`) 
 ```
 Default set up
+
 <br>
+
 ```
    let img_data
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height) 
