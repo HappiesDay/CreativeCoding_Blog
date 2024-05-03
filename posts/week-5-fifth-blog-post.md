@@ -19,10 +19,9 @@ This code focus more on the conditions of the glitch and it works quite linearly
    const ctx = cnv.getContext (`2d`) 
 ```
 Default set up
-
+<br>
 ```
    let img_data
-
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height) 
    const img = new Image () 
    img.onload = () => { 
@@ -33,6 +32,8 @@ Default set up
    }
    img.src = `/240405/pfp_glasses.jpg`
 ```
+
+<br>
 When load the image, it call the function to start the glitch effects calculations.
 
 ```
@@ -47,6 +48,8 @@ When load the image, it call the function to start the glitch effects calculatio
   
    }
 ```
+<br>
+
 This part is mainly about setting up the condition. Here it splits the string into 2 part and later reunite the string. When conditioning, it calculates the glitch size, since the image is now view as string of character and conditions it to ensure the inside glitch chunk smaller than the maximum glitch chunk and only glitch from the pixel line 24th onwards then reunite the string. It glitch a few times then stop.
 
 ```
@@ -67,6 +70,8 @@ This part is mainly about setting up the condition. Here it splits the string in
    }
    ```
 This part apply the chunk calculation from above, load a new image ready to be glitched, calculating the chunk size of the glitch equals to 96 character of the string , and repeat this 6 times then push these new glitched images to an array ready to be used.
+
+<br>
 ```
    let is_glitching = false
    let glitch_i = 0
