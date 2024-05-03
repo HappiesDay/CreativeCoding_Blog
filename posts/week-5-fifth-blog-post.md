@@ -21,7 +21,6 @@ This code focus more on the conditions of the glitch and it works quite linearly
 Default set up
 
 <br>
-
 ```
    let img_data
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height) 
@@ -34,10 +33,8 @@ Default set up
    }
    img.src = `/240405/pfp_glasses.jpg`
 ```
-
-<br>
 When load the image, it call the function to start the glitch effects calculations.
-
+<br>
 ```
    const rand_int = max => Math.floor (Math.random () * max) 
    const glitchify = (data, chunk_max, repeats) => {
@@ -47,12 +44,10 @@ When load the image, it call the function to start the glitch effects calculatio
       const back = data.slice (i + chunk_size, data.length)
       const result = front + back
       return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
-  
    }
 ```
-<br>
-
 This part is mainly about setting up the condition. Here it splits the string into 2 part and later reunite the string. When conditioning, it calculates the glitch size, since the image is now view as string of character and conditions it to ensure the inside glitch chunk smaller than the maximum glitch chunk and only glitch from the pixel line 24th onwards then reunite the string. It glitch a few times then stop.
+<br>
 
 ```
    const glitch_arr = []
@@ -70,10 +65,13 @@ This part is mainly about setting up the condition. Here it splits the string in
       }
       i.src = glitchify (img_data, 96, 6)
    }
-   ```
-This part apply the chunk calculation from above, load a new image ready to be glitched, calculating the chunk size of the glitch equals to 96 character of the string , and repeat this 6 times then push these new glitched images to an array ready to be used.
 
+```
+
+This part apply the chunk calculation from above, load a new image ready to be glitched, calculating the chunk size of the glitch equals to 96 character of the string , and repeat this 6 times then push these new glitched images to an array ready to be used.
 <br>
+
+
 ```
    let is_glitching = false
    let glitch_i = 0
@@ -95,9 +93,8 @@ This part apply the chunk calculation from above, load a new image ready to be g
       requestAnimationFrame (draw_frame)
    }
 ```      
-
 This part calculate the probability of the glitch, if it happens to glitch, draw the randomly selected glitched image from the array, if not, draw the original image.
-
+<br>
 
 
 # Pixel Sort code comment
@@ -137,7 +134,7 @@ export class PixelSorter {
       this.img_data = this.ctx.getImageData (0, 0, this.width, this.height).data
    }
 
- ```
+```
 Firstly, we retrieve its width and height data and create a new image object 
 
 ```
