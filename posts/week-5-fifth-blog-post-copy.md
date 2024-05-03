@@ -12,11 +12,15 @@ Hello, world
 
 
 ```
-   const cnv = document.getElementById (`glitch_self_portrait`) //get the canvas width and height
-   cnv.width = cnv.parentNode.scrollWidth //Including width that is not visible by overflow
-   cnv.height = cnv.width * 9 / 16 //Calculate canvas height
+   const cnv = document.getElementById (`glitch_self_portrait`) 
+   //get the canvas width and height
+   cnv.width = cnv.parentNode.scrollWidth
+   //Including width that is not visible by overflow
+   cnv.height = cnv.width * 9 / 16 
+   //Calculate canvas height
    cnv.style.backgroundColor = `red`
-   const ctx = cnv.getContext (`2d`) //Create a 2D object based on the canvas size
+   const ctx = cnv.getContext (`2d`) 
+   //Create a 2D object based on the canvas size
 ```
 Default set up
 
@@ -26,11 +30,15 @@ Default set up
    const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height) 
    //drawImage(image, dx, dy, dWidth, dHeight) 
    //in this case, i is the glitched image (layered on top), the image is located at top left, canvas width and height)
-   const img = new Image () //Create a new image
-   img.onload = () => { //this image have the glitch
-      cnv.height = cnv.width * (img.height / img.width) //make the canvas width/ canvas height same ratio as image width/ image height
+   const img = new Image () 
+   //Create a new image
+   img.onload = () => { 
+      //this image have the glitch
+      cnv.height = cnv.width * (img.height / img.width) 
+      //make the canvas width/ canvas height same ratio as image width/ image height
       draw (img) 
-      img_data = cnv.toDataURL ("image/jpeg") //make the image into a string of data
+      img_data = cnv.toDataURL ("image/jpeg") 
+      //make the image into a string of data
       add_glitch () //call function to add glitch
    }
    img.src = `/240405/pfp_glasses.jpg`
@@ -40,7 +48,7 @@ When load the image, it call the function to add the glitch effects
 ```
    const rand_int = max => Math.floor (Math.random () * max) 
    //Create a random whole number, max as a placeholder
-   //
+   
    const glitchify = (data, chunk_max, repeats) => {
    // Calculate the glitch size, since the image is now view as string of character
       const chunk_size = rand_int (chunk_max / 4) * 4
