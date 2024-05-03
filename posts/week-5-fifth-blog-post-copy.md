@@ -9,7 +9,7 @@ disable_html_sanitization: true
 Hello, world
 
 # Comments on the Glitch code
-This code focus more on the conditions of the glitch and it works quite linearly.
+This code focus more on the conditions of the glitch and it works quite linearly on calculating the glitch chunk, prepare a set of glitched image, setting up the glitch probability, and displaying the glitch images.
 
 ```
    const cnv = document.getElementById (`glitch_self_portrait`) 
