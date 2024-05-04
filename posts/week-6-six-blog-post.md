@@ -22,7 +22,7 @@ Hello, world
   }
 </script>
 
-<script>
+<script type="module">
   import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/three.js";
 import {OrbitControls} from "/static/three.js";
 console.clear();
