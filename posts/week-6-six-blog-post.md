@@ -13,10 +13,18 @@ Hello, world
 <div class="writing unselectable" id="idWire">Wire Boxes</div>
 <div class="writing unselectable" id="idRev">Rev0.1</div>
 <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous"></script>
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.149.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.149.0/examples/jsm/"
+    }
+  }
+</script>
 
 <script>
-  import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "three";
-import {OrbitControls} from "three/addons/controls/OrbitControls.js";
+  import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/three.module.js";
+import {OrbitControls} from "/static/three.module.js";
 console.clear();
 
 class WireSegments extends Object3D {
