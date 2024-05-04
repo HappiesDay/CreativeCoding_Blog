@@ -23,8 +23,8 @@ Hello, world
 </script>
 
 <script type="module">
-  import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/scripts/three.module.js";
-import {OrbitControls} from "/static/scripts/three.module.js";
+  import {Scene, PerspectiveCamera, Vector2, Vector3, Object3D, MathUtils} from "/static/three.module.js";
+import {OrbitControls} from "/static/three.module.js";
 console.clear();
 
 class WireSegments extends Object3D {
