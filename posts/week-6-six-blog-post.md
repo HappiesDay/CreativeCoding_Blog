@@ -168,7 +168,7 @@ function draw(){
 
 
 # C2
-Using the example code from (here)[https://c2js.org/examples.html?name=Perlin]
+Using the example code from [here](https://c2js.org/examples.html?name=Perlin)
 
 <script src="/scripts/c2.min.js"></script>
 
