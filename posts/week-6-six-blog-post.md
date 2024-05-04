@@ -8,13 +8,6 @@ disable_html_sanitization: true
 
 Hello, world
 
-
-
-
-
-
-
-
 # C2
 Using the example code from [here](https://c2js.org/examples.html?name=Perlin)
 
