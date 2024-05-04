@@ -1,5 +1,5 @@
 ---
-title: Week 6 Three Js and C2
+title: Week 6 C2
 published_at: 2024-3
 snippet: Week 5
 disable_html_sanitization: true
