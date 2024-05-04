@@ -1,6 +1,6 @@
 ---
 title: Week 6 Three Js and C2
-published_at: 2024-4
+published_at: 2024-3
 snippet: Week 5
 disable_html_sanitization: true
 
