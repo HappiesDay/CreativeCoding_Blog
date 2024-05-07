@@ -11,6 +11,7 @@ Hello, world
 # Asci cam combine with week 5 glitch
 
 <canvas id="glitch_self_portrait"></canvas>
+<div id="ascii_div"></div>
 
 <script type="module">
 
@@ -71,51 +72,16 @@ Hello, world
       }
 
       requestAnimationFrame (draw_frame)
-   }
+      
 
-</script>
 
-<div id="ascii_div"></div>
 
-<script>
-   const renderer = new c2.Renderer (document.getElementById ('glitch_self_portrait'));
-   resize ()
 
-   renderer.background ('turquoise')
-   let random = new c2.Random ()
 
-   class Agent extends c2.Point {
-      constructor () {
-         let x = random.next (renderer.width)
-         let y = random.next (renderer.height)
-         super (x, y)
 
-         this.vx = random.next (-2, 2)
-         this.vy = random.next (-2, 2)
-      }
 
-      update() {
-         this.x += this.vx
-         this.y += this.vy
 
-         if (this.x < 0) {
-               this.x = 0
-               this.vx *= -1
-         } else if (this.x > renderer.width) {
-               this.x = renderer.width
-               this.vx *= -1
-         }
-         if (this.y < 0) {
-               this.y = 0
-               this.vy *= -1
-         } else if (this.y > renderer.height) {
-               this.y = renderer.height
-               this.vy *= -1
-         }
-      }
-   }
-
-   let agents = new Array (20)
+let agents = new Array (20)
    for (let i = 0; i < agents.length; i++) agents[i] = new Agent ()
 
    const chars = "¶Ñ@%&∆∑∫#Wß¥$£√?!†§ºªµ¢çø∂æåπ*™≤≥≈∞~,.…_¬“‘˚`˙"
@@ -180,7 +146,12 @@ Hello, world
       let parent = renderer.canvas.parentElement
       renderer.size (parent.clientWidth, parent.clientWidth / 16 * 9)
    }
+
+   }
+
 </script>
+
+
 
 
 ## Why does combining ideas / libraries seem to make things more aesthetically chaotic?  
