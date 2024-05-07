@@ -330,3 +330,6 @@ Glitch naturally fits the zanny aesthetic since glitch introduce 3 main parts th
 ## Does glitch increase or decrease effective complexity, and why?
 Glitch effects decrease the coherent flow of the image and introduce new variations that lean more toward a computational aesthetic. A glitched image requires more cognitive effort to interpret. The increase in detail, such as more layers and more textural material, makes the visuals more complicated and consequently disrupts the composition. By altering the readability of the image, potentially it's canvas frame, the complexity goes beyond its effective range and into the realm of digital corruptions, which invites us to a deeper engagement with the relationship between technology and visual expression.
 
+<br>
+
+<br>
