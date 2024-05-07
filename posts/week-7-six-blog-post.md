@@ -20,7 +20,7 @@ Hello, world
 
    // make canvas html element for ASCII art
    const cnv = document.createElement (`canvas`);
-   cnv.width = 96; 
+   cnv.width = 72; 
    const sourceCanvas = document.getElementById('glitch_self_portrait');
    cnv.height = cnv.width * sourceCanvas.height / sourceCanvas.width; // maintain aspect ratio
 
