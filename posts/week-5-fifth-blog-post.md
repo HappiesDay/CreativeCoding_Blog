@@ -255,6 +255,71 @@ TLDR: We first calculate the position of the pixel within the column, we then ex
 
 # Self-portrait in the style of glitch
 
+<canvas id="glitch_self_portrait"></canvas>
+
+<script type="module">
+
+   const cnv = document.getElementById (`glitch_self_portrait`)
+   cnv.width = cnv.parentNode.scrollWidth
+   cnv.height = cnv.width * 9 / 16
+   cnv.style.backgroundColor = `deeppink`
+
+   const ctx = cnv.getContext (`2d`)
+
+   let img_data
+
+   const draw = i => ctx.drawImage (i, 0, 0, cnv.width, cnv.height)
+
+   const img = new Image ()
+   img.onload = () => {
+      cnv.height = cnv.width * (img.height / img.width)
+      draw (img)
+      img_data = cnv.toDataURL ("image/jpeg")
+      add_glitch ()
+   }
+   img.src = `/images/creepy.jpg`
+
+   const rand_int = max => Math.floor (Math.random () * max)
+
+   const glitchify = (data, chunk_max, repeats) => {
+      const chunk_size = rand_int (chunk_max / 4) * 4
+      const i = rand_int (data.length - 24 - chunk_size) + 24
+      const front = data.slice (0, i)
+      const back = data.slice (i + chunk_size, data.length)
+      const result = front + back
+      return repeats == 0 ? result : glitchify (result, chunk_max, repeats - 1)
+   }
+
+   const glitch_arr = []
+
+   const add_glitch = () => {
+      const i = new Image ()
+      i.onload = () => {
+         glitch_arr.push (i)
+         if (glitch_arr.length < 12) add_glitch ()
+         else draw_frame ()
+      }
+      i.src = glitchify (img_data, 96, 6)
+   }
+
+   let is_glitching = false
+   let glitch_i = 0
+
+   const draw_frame = () => {
+      if (is_glitching) draw (glitch_arr[glitch_i])
+      else draw (img)
+
+      const prob = is_glitching ? 0.05 : 0.02
+      if (Math.random () < prob) {
+         glitch_i = rand_int (glitch_arr.length)
+         is_glitching = !is_glitching
+      }
+
+      requestAnimationFrame (draw_frame)
+   }
+
+</script>
+
 ## Which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
 Glitch naturally fits the zanny aesthetic since glitch introduce 3 main parts that reinforce the chaos: Un-welcome behavior, instability and visual disruption. Ngai put zanny fundemental as performative labor, reflect in our precariousness and intensity of contemporary work life. Technology is a big assiciation with our work life. However when technology breaks down, unwelcome and unpredictable actions such as bugging or glitching emerge, leading to feelings of apprehensiveness and distress. This aligns with Ngai's description of the zany as "anxious and excessive." Nick Briz, a new media artist, suggests a basic formula: take a familiar piece of technology and do something unfamiliar with it. This also concurs with Ngai's understanding of the zany as involving imitation and mimicry, almost as if trying to copy in an unstable and forced manner.
 
