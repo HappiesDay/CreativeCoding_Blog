@@ -96,7 +96,7 @@ const cnv = document.getElementById ('fractal_tree_0')
             tree (end, R_stem, next_gen)
         }
     }
-
+   const Vector
     // new vector defining the starting point of our tree
     const seed = new Vector (cnv.width/2, cnv.height)
 
