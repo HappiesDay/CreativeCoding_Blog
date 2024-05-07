@@ -43,7 +43,7 @@ Hello, world
       const pixels = await ctx.getImageData(0, 0, cnv.width, cnv.height).data;
       let ascii_img = ``; // start empty ascii string
 
-      for (let y = 0; y < cnv.height; y += 2) {
+      for (let y = 0; y < cnv.height; y += 4) {
          for (let x = 0; x < cnv.width; x++) {
             const i = (y * cnv.width + x) * 4; // get pixel position
             const r = pixels[i], g = pixels[i+1], b = pixels[i+2]; // get rgb values
