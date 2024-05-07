@@ -12,6 +12,8 @@ Hello, world
 
 <canvas id="glitch_self_portrait"></canvas>
 <script src="/scripts/glitch.js"></script>
+
+# LOL
 <div id="ascii_div"></div>
 
 <script type="module">
