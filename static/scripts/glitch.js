@@ -16,7 +16,7 @@ const cnv = document.getElementById (`glitch_self_portrait`)
       img_data = cnv.toDataURL ("image/jpeg")
       add_glitch ()
    }
-   img.src = `/images/creepy.jpg`
+   img.src = `/images/laughing.jpg`
 
    const rand_int = max => Math.floor (Math.random () * max)
 
