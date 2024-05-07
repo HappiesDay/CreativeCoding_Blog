@@ -9,11 +9,11 @@ disable_html_sanitization: true
 Hello, world
 
 # Asci cam combine with week 5 glitch
-
+## Laugh out loud bell-pepper
 <canvas id="glitch_self_portrait"></canvas>
 <script src="/scripts/glitch.js"></script>
 
-## Laugh out loud bell-pepper
+
 <div id="ascii_div"></div>
 
 <script type="module">
