@@ -98,7 +98,7 @@ const cnv = document.getElementById ('fractal_tree_0')
     }
 
     // new vector defining the starting point of our tree
-    const seed = new Vector (cnv.width / 2, cnv.height)
+    const seed = new Vector (cnv.width/2, cnv.height)
 
     // new vector defining the first stem
     // ie. 150 pixels straight up
