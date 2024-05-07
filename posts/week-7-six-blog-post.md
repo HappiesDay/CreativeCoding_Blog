@@ -44,7 +44,7 @@ Hello, world
       let ascii_img = ``; // start empty ascii string
 
       for (let y = 0; y < cnv.height; y += 1) {
-         for (let x = 0; x < cnv.width; x+= 0.5) {
+         for (let x = 0; x < cnv.width; x+= 1) {
             const i = (y * cnv.width + x) * 4; // get pixel position
             const r = pixels[i], g = pixels[i+1], b = pixels[i+2]; // get rgb values
             const br = (r * g * b / 16581376) ** 0.1; // calculate brightness
