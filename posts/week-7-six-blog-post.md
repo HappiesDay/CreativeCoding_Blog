@@ -43,9 +43,9 @@ Hello, world
       const pixels = await ctx.getImageData(0, 0, cnv.width, cnv.height).data;
       let ascii_img = ``; // start empty ascii string
 
-      for (let y = 0; y < cnv.height; y += 2) {
+      for (let y = 0; y < cnv.height; y += 3) {
          for (let x = 0; x < cnv.width; x++) {
-            const i = (y * cnv.width + x) * 4; // get pixel position
+            const i = (y * cnv.width + x) * 5; // get pixel position
             const r = pixels[i], g = pixels[i+1], b = pixels[i+2]; // get rgb values
             const br = (r * g * b / 16581376) ** 0.1; // calculate brightness
             const char_i = Math.floor(br * chars.length); // use brightness to select character
