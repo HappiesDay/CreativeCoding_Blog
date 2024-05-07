@@ -320,6 +320,8 @@ TLDR: We first calculate the position of the pixel within the column, we then ex
 
 </script>
 
+<br>
+
 ## Which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
 Glitch naturally fits the zanny aesthetic since glitch introduce 3 main parts that reinforce the chaos: Un-welcome behavior, instability and visual disruption. Ngai put zanny fundemental as performative labor, reflect in our precariousness and intensity of contemporary work life. Technology is a big assiciation with our work life. However when technology breaks down, unwelcome and unpredictable actions such as bugging or glitching emerge, leading to feelings of apprehensiveness and distress. This aligns with Ngai's description of the zany as "anxious and excessive." Nick Briz, a new media artist, suggests a basic formula: take a familiar piece of technology and do something unfamiliar with it. This also concurs with Ngai's understanding of the zany as involving imitation and mimicry, almost as if trying to copy in an unstable and forced manner.
 
