@@ -24,7 +24,7 @@ The audio sections is mostly the synthesis explained in class. To make it more o
 
 
 # A2 Color Me Done
-For me, this work is best to interact with a smaller width and longer height, similiar to a phone screen. This work shares the feeling of lost in the moment, where everything is hazy and loud and overwhelming and unrecallable. To translate that, I use randomness to create the lines, then destroy it, even the instruction to make evey play is a new work that was destroyed by you. 
+For me, this work is best to interact with a smaller width and longer height, similiar to a phone screen. This work shares the feeling of lost in the moment, where everything is hazy and loud and overwhelming and unrecallable. To translate that, I use randomness to create the lines, then destroy it, including the instruction. Every creation falls to your undoing. 
 
 <iframe width="100%" height=1200px src="https://happiesday-a2-chaos-ne-22.deno.dev/"></iframe>
 
