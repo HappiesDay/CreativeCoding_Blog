@@ -1,5 +1,5 @@
 ---
-title: Week 7 
+title: Week 7 Combining Ideas
 published_at: 2024-3
 snippet: Week 7
 disable_html_sanitization: true
