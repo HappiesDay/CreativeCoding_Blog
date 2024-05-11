@@ -21,8 +21,11 @@ To make the canvas interactive, I make the art switch between 2 state: generatin
 ## Audio reference
 The audio sections is mostly the synthesis explained in class. To make it more obnoxious I pump up the audio to make it loud and annoying. 
 
-# A2
 <br>
+
+<br>
+
+# A2
 For me, this work is best to interact with a smaller width and longer height, similiar to a phone screen
 
-<iframe width="80%" height=800px src="https://happiesday-a2-chaos-ne-22.deno.dev/"></iframe>
+<iframe width="100%" height=800px src="https://happiesday-a2-chaos-ne-22.deno.dev/"></iframe>
