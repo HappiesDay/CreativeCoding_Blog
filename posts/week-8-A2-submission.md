@@ -29,3 +29,7 @@ The audio sections is mostly the synthesis explained in class. To make it more o
 For me, this work is best to interact with a smaller width and longer height, similiar to a phone screen
 
 <iframe width="100%" height=1200px src="https://happiesday-a2-chaos-ne-22.deno.dev/"></iframe>
+
+<br>
+
+<br>
