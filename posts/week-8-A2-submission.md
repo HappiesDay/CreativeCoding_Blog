@@ -8,7 +8,6 @@ disable_html_sanitization: true
 
 Hello, world
 
-# Responded work
 ## Glitch artist reference
 I want to create an interactive work, and after seeing [Rosa Menkman work here](https://rosa-menkman.blogspot.com/) I was inspired to have the canvas to be interactive In Rosa's work, the text frame is not defined to 1 font nor color nor rotation, and the frame for the videos and images open weird links. This is the foundation for my chaotic aethestic where the text and the art is vurnerable to our mouse.
 
