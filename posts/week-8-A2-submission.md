@@ -12,7 +12,7 @@ Hello, world
 ## Laugh out loud bell-pepper
 <canvas id="glitch_self_portrait"></canvas>
 <script src="/scripts/glitch.js"></script>
-(here)[https://rosa-menkman.blogspot.com/]
+[here](https://rosa-menkman.blogspot.com/)
 
 <div id="ascii_div"></div>
 
