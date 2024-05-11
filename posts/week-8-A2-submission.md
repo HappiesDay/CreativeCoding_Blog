@@ -7,6 +7,8 @@ disable_html_sanitization: true
 ---
 
 Hello, world
+# A2 Color Me Done
+<br>
 
 ## Glitch artist reference
 I want to create an interactive work, and after seeing [Rosa Menkman work here](https://rosa-menkman.blogspot.com/) I was inspired to have the canvas to be interactive In Rosa's work, the text frame is not defined to 1 font nor color nor rotation, and the frame for the videos and images open weird links. This is the foundation for my chaotic aethestic where the text and the art is vurnerable to our mouse.
@@ -24,7 +26,7 @@ The audio sections is mostly the synthesis explained in class. To make it more o
 
 <br>
 
-# A2 Color Me Done
+## Final product
 For me, this work is best to interact with a smaller width and longer height, similiar to a phone screen. This work shares the feeling of lost in the moment, where everything is hazy and loud and overwhelming and unrecallable. To translate that, I use randomness to create the lines, then destroy it, even the instruction to make evey play is a new work that was destroyed by you. 
 
 <iframe width="100%" height=1200px src="https://happiesday-a2-chaos-ne-22.deno.dev/"></iframe>
