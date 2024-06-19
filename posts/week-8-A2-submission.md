@@ -1,7 +1,7 @@
 ---
 title: Week 8 A2 submission
 published_at: 2024-3
-snippet: Week 7
+snippet: Week 8
 disable_html_sanitization: true
 
 ---

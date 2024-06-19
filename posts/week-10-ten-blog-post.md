@@ -1,6 +1,6 @@
 ---
-title: Week 0 Live coding
-published_at: 2024-3
+title: Week 10 Live coding
+published_at: 2024-2
 snippet: Week 10
 disable_html_sanitization: true
 
