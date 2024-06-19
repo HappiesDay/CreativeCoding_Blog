@@ -9,15 +9,13 @@ disable_html_sanitization: true
 Hello, world
 
 ## Reflection 
-1. What aspects of the process were frustrating
+1. What aspects of the process were frustrating?
+One aspect of the process that I really hate is how much back and forth I have to go back to the reference sheet for which code generate which notes. It is not very user friendly and intuitive to perform. Also the constant high pitch note is very sensory overloading and I hate being exposed to sound like that for extended amount of time. Another not as frustrating but more on the suprise is when my friends add their notes and it make my intention derailed which was funny.
 
 
-2. Belong to the aesthetic category of interesting?
-The project has provoke discussion, and interesting does have an informational and discursive aesthetic to it. Pre-Covid, we never think of talking is an action of harm. Post-Covid, wearing mask and talk less when sick is the norm. Perception of new information or unexpected ideas is very crucial in making something interesting. In a way, making the project provide with new insight: talking is dangerous yet slightly lack something could also brings in discussion on how we can collectively improve it. Overall the project is very strange yet simple in nature, therefore making it very alluring and interesting.
+2. What aspects of the process were rewarding,
+Being collaborative yet left suprise on what my friend gonna do is very interesting and is very fun. It is also very rewarding to ruin their intention by adding weird stuff.
 
-3. Brainstorm
-The my Community of Practice (CoP), I have a main Cop I want to contribute to using my creative coding: Sound design. However there is one niche that I really want to fill: A better way to show how we percieve the sound. I have struggle with coming up idea for sound design, and drawing is a fun and great way to express my idea.
-My domain should be: Intersensory designer (Or me and DnD besties who are looking for a way to better describe a sound so we could make the setting more immersive)
-The shared value: I focus mainly on aesthetic quality where describing an accuarate auditory experience for my sensory designer friend is fitting and evocative for the context in which we will later use for our DnD campaign .
-Existing repertoire: Audio-Visual Synchronization (For example Youtube music video), Subtitle in movies (Audio to visual), VR,...
-How I might broker some creative coding repertoire to this new context: For my intention, I only intend on collaborative aspect of the project where I want to make a drawing app so the other can react real time on what my interpretation of the sound is. 
+3. What are the live-coding community trying to do? Why?
+I think it is a very innovative way to perform art. Art usually requires time to refine and develop. By making it on the fly, it force a different skillset to collab smoothly. By combining the classic visual and audio but in a real-time way, it can foster new reaction, new way to collab. It is lower-ceiling which can entice newer people who are not familiar with either visual, audio, performance to try out and maybe develop a liking for this art. 
+
