@@ -1,7 +1,7 @@
 ---
 title: Week 10 Live coding
 published_at: 2024-3
-snippet: Week 10
+snippet: Week 7
 disable_html_sanitization: true
 
 ---
