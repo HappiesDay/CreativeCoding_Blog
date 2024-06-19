@@ -1,7 +1,7 @@
 ---
-title: Week 8 A2 submission
+title: Week 9 Community of Practices
 published_at: 2024-3
-snippet: Week 7
+snippet: Week 9
 disable_html_sanitization: true
 
 ---
