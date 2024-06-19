@@ -8,7 +8,7 @@ disable_html_sanitization: true
 
 Hello, world
 
-## Code development
+## Instructions: Left click to drag or draw, Middle click to pan, Right click to move canvas
 
 
 <br>
