@@ -8,8 +8,11 @@ disable_html_sanitization: true
 
 Hello, world
 
-## Instructions: Left click to drag or draw, Middle click to pan, Right click to move canvas
-
+## Final product
+Left click to drag or draw. <br>
+Middle click to pan. <br> 
+Right click to move canvas. <br>
+Scrollwheel to zoom. <br>
 
 <br>
 
