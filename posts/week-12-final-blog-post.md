@@ -14,34 +14,32 @@ What I want to achieve have 4 main parts: the drawing, the resize canvas so it a
 
 <br>
 
-This is Tom Humpries code:
+The drawing and the resize is quite straightforward 
+```
+ function drawLine(x0, y0, x1, y1) {
+            context.beginPath();
+            context.moveTo(x0, y0);
+            context.lineTo(x1, y1);
+            context.strokeStyle = '#000';
+            context.lineWidth = 2;
+            context.stroke();
+            // store the data in an array
+        }
+            
+```
+And the redraw is quite similiar to the default window on resize from the net art template Mx Thomas has already provided.
 
 ```
-  // get our canvas element
-        const canvas = document.getElementById("canvas");
-        const context = canvas.getContext("2d");
+ function redrawCanvas() {
+            // set the canvas to the size of the window
+            canvas.width = document.body.clientWidth;
+            canvas.height = document.body.clientHeight;
+```
 
-        // disable right clicking
-        document.oncontextmenu = function () {
-            return false;
-        }
 
-        // list of all strokes drawn
-        const drawings = [];
+However this part was the most important as a foundation for me to build upon:
 
-        // coordinates of our cursor
-        let cursorX;
-        let cursorY;
-        let prevCursorX;
-        let prevCursorY;
-
-        // distance from origin
-        let offsetX = 0;
-        let offsetY = 0;
-
-        // zoom amount
-        let scale = 1;
-
+```
         // convert coordinates
         function toScreenX(xTrue) {
             return (xTrue + offsetX) * scale;
@@ -62,10 +60,7 @@ This is Tom Humpries code:
             return canvas.clientWidth / scale;
         }
 
-        function redrawCanvas() {
-            // set the canvas to the size of the window
-            canvas.width = document.body.clientWidth;
-            canvas.height = document.body.clientHeight;
+       
 
             context.fillStyle = '#fff';
             context.fillRect(0, 0, canvas.width, canvas.height);
@@ -74,20 +69,6 @@ This is Tom Humpries code:
                 drawLine(toScreenX(line.x0), toScreenY(line.y0), toScreenX(line.x1), toScreenY(line.y1));
             }
         }
-        redrawCanvas();
-
-        // if the window changes size, redraw the canvas
-        window.addEventListener("resize", (event) => {
-            redrawCanvas();
-        });
-
-        // Mouse Event Handlers
-        canvas.addEventListener('mousedown', onMouseDown);
-        canvas.addEventListener('mouseup', onMouseUp, false);
-        canvas.addEventListener('mouseout', onMouseUp, false);
-        canvas.addEventListener('mousemove', onMouseMove, false);
-        canvas.addEventListener('wheel', onMouseWheel, false);
-
         // mouse functions
         let leftMouseDown = false;
         let rightMouseDown = false;
@@ -164,16 +145,13 @@ This is Tom Humpries code:
 
             redrawCanvas();
         }
-        function drawLine(x0, y0, x1, y1) {
-            context.beginPath();
-            context.moveTo(x0, y0);
-            context.lineTo(x1, y1);
-            context.strokeStyle = '#000';
-            context.lineWidth = 2;
-            context.stroke();
-        }
+       
 ```
-The code already have all 4 base thing I want, and it was my job to figure out how to apply the code to a div that have an audio element so the element can be panned, zoomed and dragged. However it took me quite a long time to figure out how to put an audio along with the canvas. 
+The calculation already have all base thing I want, and it was my job to figure out how to apply the code to a div that have an audio element so the element can be panned, zoomed and dragged. However it took me quite a long time to figure out how to put an audio along with the canvas. I have experiment with trying to transform the audio with css and it didn't work out great
+
+<iframe width="100%" height="500px" src="`/images/Smol_Audio.PNG`"></iframe>
+
+
 
 ## Final product
 Left click to drag or draw. <br>
