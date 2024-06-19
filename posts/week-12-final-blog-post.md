@@ -8,6 +8,9 @@ disable_html_sanitization: true
 
 Hello, world
 
+## Code developement
+I was really inspired by the product (PureRef application)[https://www.pureref.com/]
+
 ## Final product
 Left click to drag or draw. <br>
 Middle click to pan. <br> 
