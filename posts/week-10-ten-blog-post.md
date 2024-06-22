@@ -8,6 +8,8 @@ disable_html_sanitization: true
 
 Hello, world
 
+<iframe width="100%" src="/images/Flock.PNG"></iframe>
+
 ## Reflection 
 1. What aspects of the process were frustrating? <br>
 One aspect of the process that I really hate is how much back and forth I have to go back to the reference sheet for which code generate which notes. It is not very user friendly and intuitive to perform. Also the constant high pitch note is very sensory overloading and I hate being exposed to sound like that for extended amount of time. Another not as frustrating but more on the suprise is when my friends add their notes and it make my intention derailed which was funny.
